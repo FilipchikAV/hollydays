@@ -1,0 +1,24 @@
+.scroll__up-btn {
+  display: none;
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  position: fixed;
+  bottom: 20px; /* Отступ снизу */
+  right: 20px; /* Отступ справа */
+  z-index: 1; /* Кнопка поверх остальных элементов */
+  outline: none;
+  color: #2C2D35;
+  background: #D4E8D9;
+  padding: 15px 20px; /* Внутренние отступы */
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Плавный эффект при наведении (:hover) */
+  transition: background 0.3s, transform 0.3s;
+
+  &:hover {
+    background: #376B44; /* Например, меняем фон на цвет рамки */
+    color: #ffffff;        /* И цвет текста на белый для читаемости */
+    transform: scale(1.05); /* Легкое увеличение */
+  }
+}

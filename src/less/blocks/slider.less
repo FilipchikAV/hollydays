@@ -1,0 +1,102 @@
+.slider-container {
+  width: 100%;
+  max-width: 1110px;
+  margin: 0 auto 20px;
+  border: none;
+}
+
+/* Кинопроектор, где бежит кинолента слайдера */
+.slider {
+  border: none;
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto 20px;
+  overflow: hidden;
+}
+
+/* Сама кинолента слайдера */
+.slider__list {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  transition: transform 0.8s ease-in-out;
+  background: #D4E8D9;
+}
+/* Сами слайды-кадры из киноленты слайдера */
+.slider__item {
+  flex: 0 0 100%;
+  width: 100%;
+  min-width: 100%;
+  flex-shrink: 0;
+  box-sizing: border-box;
+  padding: 20px;
+  background: #D4E8D9;
+}
+
+/* Здесь у нас само содержание каждого слайда-кадра */
+.slider__img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 15px;
+}
+.slider__sublist {
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+
+/* Блок с кнопками */
+.slider__wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto 40px;
+}
+
+.slider__btn {
+  border-radius: 16px;
+  border: none;
+  cursor: pointer;
+  bottom: 20px; /* Отступ снизу */
+  right: 20px; /* Отступ справа */
+  color: #2C2D35;
+  background: #D4E8D9;
+  padding: 15px 20px; /* Внутренние отступы */
+  font-size: 18px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* Плавный эффект при наведении (:hover) */
+  transition: background 0.3s, transform 0.3s;
+
+  &:hover {
+    background: #376B44; /* Например, меняем фон на цвет рамки */
+    color: #ffffff;        /* И цвет текста на белый для читаемости */
+    transform: scale(1.05); /* Легкое увеличение */
+  }
+}
+.calendar__span {
+  font-size: 40px;
+  font-weight: 500;
+  color: #598D66;
+}
+.calendar__title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #2C2D35;
+  text-align: center;
+  margin-bottom:  30px;
+}
+.slider__title {
+  color: #2C2D35;
+  font-size: 32px;
+  font-weight: 500;
+}
+.slider__subitem {
+  font-size: 16px;
+  font-weight: 400;
+  color: #2C2D35;
+}
