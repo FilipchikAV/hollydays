@@ -1,3 +1,4 @@
+/* здесь стили для заголовка и верхней навигации */
 .header {
   max-width: 1440px;
   margin: 0 auto 40px;
@@ -34,6 +35,12 @@
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #598D66;        /* И цвет текста на белый для читаемости */
+    transform: scale(1.05); /* Легкое увеличение */
+  }
 }
 .header__text-logo {
   color: #598D66;

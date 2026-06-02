@@ -1,3 +1,4 @@
+/* здесь стили для футера, подвала, сайта */
 .footer {
   max-width: 1440px;
   padding: 20px 0;
@@ -19,6 +20,11 @@
   justify-content: space-between;
   align-items: center;
 }
+.footer__text-logo {
+  color: #598D66;
+  font-size: 20px;
+  font-weight: 600;
+}
 .footer__link {
   text-decoration: none;
   color: #2C2D35;
@@ -26,5 +32,11 @@
   font-size: 20px;
   font-weight: 500;
   cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+
+  &:hover {
+    color: #598D66;        /* И цвет текста на белый для читаемости */
+    transform: scale(1.05); /* Легкое увеличение */
+  }
 }
 

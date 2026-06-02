@@ -3,7 +3,6 @@ document.addEventListener("DOMContentLoaded", () => {
 	const list = document.querySelector('.slider__list');
 	const btnPrev = document.querySelector('.slider__btn-prev');
 	const btnNext = document.querySelector('.slider__btn-next');
-	const container = document.querySelector('.slider-container');
 
 	// Клонирование для бесконечного эффекта
 	const originalSlides = Array.from(list.children);

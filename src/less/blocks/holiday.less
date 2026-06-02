@@ -17,7 +17,9 @@
   color: #86928B;
   margin-bottom: 30px
 }
+/* стили для конопочек и их ховеры (обработка наведения мышки на кнопку) */
 .holiday__link {
+  font-size: 20px;
   text-decoration: none;
   color: #598D66;
   display: block;
@@ -26,6 +28,12 @@
   height: 65px;
   text-align: center;
   padding-top: 20px;
+  transition: background 0.3s, transform 0.3s;
+  &:hover {
+    background: #E1EDE6; /* Например, меняем фон на цвет рамки */
+    color: #598D66;        /* И цвет текста на белый для читаемости */
+    transform: scale(1.05); /* Легкое увеличение */
+  }
 }
 .holiday__subtitle {
   color: #598D66;
