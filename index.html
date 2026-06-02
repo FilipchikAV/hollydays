@@ -2,22 +2,21 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-  <script type="module" crossorigin src="/hollydas/assets/main-CDdbz0_O.js"></script>
-  <link rel="modulepreload" crossorigin href="/hollydas/assets/main-vJnRgjW0.js">
-  <link rel="modulepreload" crossorigin href="/hollydas/assets/scroll-up-btn-BUHHRFqx.js">
-  <link rel="stylesheet" crossorigin href="/hollydas/assets/main-DpNCcXzK.css">
+    <title>Праздники России</title>
+		<!-- Блок фавиконки, фавиконка вставляется в левую часть закладки страницы рядом с заголовком-->
+    <link rel="icon" href="/hollydas/assets/favicon-DZ-DJe41.png" type="image/png" sizes="32x32">
+  <script type="module" crossorigin src="/hollydas/assets/main-Bivwmu4U.js"></script>
+  <script type="module" crossorigin src="/hollydas/assets/scroll-up-btn-CRmZMA0O.js"></script>
+  <link rel="stylesheet" crossorigin href="/hollydas/assets/main-CTLwDVb_.css">
 </head>
 <body class="body">
 <div class="container">
+	<!-- header - шапка сайта обычно там располагается меню сайта, навигация по сайту -->
   <header class="header">
       <div class="header__wrap">
           <a href="index.html" class="header__link-logo">
-            <img src="data:image/svg+xml,%3csvg%20width='35'%20height='35'%20viewBox='0%200%2035%2035'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.3219%200L19.7871%209.10444L26.7831%202.77806L23.9347%2011.77L33.2405%2010.2302L25.9828%2016.2547L34.6438%2019.9905L25.2812%2021.1349L30.5475%2028.9601L22.0525%2024.861L22.2522%2034.2911L17.3219%2026.25L12.3916%2034.2911L12.5913%2024.861L4.09628%2028.9601L9.36262%2021.1349L2.47955e-05%2019.9905L8.66096%2016.2547L1.40334%2010.2302L10.7091%2011.77L7.86069%202.77806L14.8567%209.10444L17.3219%200Z'%20fill='%23598D66'/%3e%3c/svg%3e" alt="logo" class="header__logo">
-	          <p class="header__text-logo">Студия "Салют"</p>
+              <img src="data:image/svg+xml,%3csvg%20width='35'%20height='35'%20viewBox='0%200%2035%2035'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.3219%200L19.7871%209.10444L26.7831%202.77806L23.9347%2011.77L33.2405%2010.2302L25.9828%2016.2547L34.6438%2019.9905L25.2812%2021.1349L30.5475%2028.9601L22.0525%2024.861L22.2522%2034.2911L17.3219%2026.25L12.3916%2034.2911L12.5913%2024.861L4.09628%2028.9601L9.36262%2021.1349L2.47955e-05%2019.9905L8.66096%2016.2547L1.40334%2010.2302L10.7091%2011.77L7.86069%202.77806L14.8567%209.10444L17.3219%200Z'%20fill='%23598D66'/%3e%3c/svg%3e" alt="logo" class="header__logo">
+              <p class="header__text-logo">Студия "Салют"</p>
           </a>
           <nav class="header__nav">
               <ul class="header__list">
@@ -38,6 +37,7 @@
       </div>
   </header>
   <section class="holiday">
+	  <!-- Блок с главной информацией, главный заголовок -->
       <img src="/hollydas/assets/day_for_russian-CKlpJtTv.png" alt="День России" class="holiday__img">
       <div class="holiday__wrap">
           <h1 class="holiday__title">
@@ -47,35 +47,34 @@
           <p class="holiday__text">
               Современные праздники, важные, значимые события отмечаемые народом Российской Федерации в настоящее время.
           </p>
-          <a href="#" class="holiday__link">
+          <a href="#info" class="holiday__link">
               Узнать больше
           </a>
       </div>
   </section>
       <section id="info" class="info">
+	      <!-- Блок с дополнительной навигацией по сайту, праздники по временам года и кнопки -->
           <div class="info__wrap">
               <h2 class="info__title">
                   Современные праздники
               </h2>
               <ul class="info__list__time">
                   <li class="info__item">
-                      <a href="#" class="info__link-btn">Зима</a>
+                      <a href="#winter" class="info__link-btn">Зима</a>
                   </li>
                   <li class="info__item">
-                      <a href="#" class="info__link-btn">Весна</a>
+                      <a href="#spring" class="info__link-btn">Весна</a>
                   </li>
                   <li class="info__item">
-                      <a href="#" class="info__link-btn">Лето</a>
+                      <a href="#summer" class="info__link-btn">Лето</a>
                   </li>
                   <li class="info__item">
-                      <a href="#" class="info__link-btn">Осень</a>
+                      <a href="#autumn" class="info__link-btn">Осень</a>
                   </li>
               </ul>
             </div>
-
-
           <ul class="info__list">
-              <li class="info_item_holidays">
+              <li id="winter" class="info_item_holidays">
                   <img src="/hollydas/assets/Christmas-Cp_aEVWL.png" alt="Новый год" class="info__img">
                   <p class="info__subtitle">31 декабря – 1 января</p>
                   <p class="info__text">Самый популярный и масштабный праздник в стране. Стали праздновать в СССР в 1935г.</p>
@@ -93,7 +92,7 @@
                   <p class="info__text">Официальный выходной день, посвященный чествованию военных, а в быту — всех мужчин.</p>
                   <button data-id="3" class="info__link">Узнать больше</button>
               </li>
-              <li class="info_item_holidays">
+              <li id="spring" class="info_item_holidays">
                   <img src="/hollydas/assets/day_for_girls-BsE3u5J5.png" alt="Женский день" class="info__img">
                   <p class="info__subtitle">8 марта</p>
                   <p class="info__text">Официальный государственный выходной, день весны, внимания и заботы о женщинах.</p>
@@ -111,7 +110,7 @@
                   <p class="info__text"> Самый значимый праздник страны с военными парадами и акцией «Бессмертный полк».</p>
                   <button class="info__link" data-id="6">Узнать больше</button>
               </li>
-              <li class="info_item_holidays">
+              <li id="summer" class="info_item_holidays">
                   <img src="/hollydas/assets/12_june-CyAbA699.png" alt="День России" class="info__img">
                   <p class="info__subtitle">12 июня</p>
                   <p class="info__text">Главный государственный праздник, знаменующий принятие Декларации о государственном суверенитете.</p>
@@ -129,7 +128,7 @@
                   <p class="info__text">Официальный праздник, посвященный национальному триколору, флагу России.</p>
                   <button class="info__link" data-id="9">Узнать больше</button>
               </li>
-              <li class="info_item_holidays">
+              <li id="autumn" class="info_item_holidays">
                   <img src="/hollydas/assets/day_of_intelligence-CmbSx04O.png" alt="День знаний" class="info__img">
                   <p class="info__subtitle">1 сентября</p>
                   <p class="info__text">Начало учебного года для всех школьников, студентов и педагогов. Праздник празнуют с 15.07.1984г.</p>
@@ -150,10 +149,11 @@
           </ul>
       </section>
         <section id="team" class="team">
+	        <!-- Информация о разработчиках -->
             <img src="/hollydas/assets/team-BKP5Jflp.png" alt="team" class="team__img">
             <div class="team__wrap">
             <h2 class="team__title">Наша команда</h2>
-            <p class="team__text">Мы — команда квалифицированных веб-разработчиков, инженеров и  дизайнеров с опытом реализации проектов любой сложности. Наша специализация — создание корпоративных порталов, интернет-магазинов и высоконагруженных веб-сервисов.</p>
+            <p class="team__text">Мы — команда веб-разработчиков, инженеров и дизайнеров, объединившая студентов БелГУ. Реализуем проекты любой сложности: от корпоративных порталов и интернет-магазинов до высоконагруженных веб-сервисов. Наша цель — внедрять академические стандарты качества и современные технологии в реальный сектор бизнеса города Белгорода.</p>
             <ul class="team__list">
                 <li class="team__item">
                     <img src="/hollydas/assets/man-C8j-dOzK.jpg" alt="Мужчина" class="team__img">
@@ -168,11 +168,12 @@
             </div>
         </section>
         <footer class="footer">
+	        <!-- footer, так называемый футер или подвал сайта, который содержит уменьшенную навигацию, адреса, телефоны и прочую инфу-->
             <div class="footer__wrap">
-		            <a href="index.html" class="header__link-logo">
-			            <img src="data:image/svg+xml,%3csvg%20width='35'%20height='35'%20viewBox='0%200%2035%2035'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.3219%200L19.7871%209.10444L26.7831%202.77806L23.9347%2011.77L33.2405%2010.2302L25.9828%2016.2547L34.6438%2019.9905L25.2812%2021.1349L30.5475%2028.9601L22.0525%2024.861L22.2522%2034.2911L17.3219%2026.25L12.3916%2034.2911L12.5913%2024.861L4.09628%2028.9601L9.36262%2021.1349L2.47955e-05%2019.9905L8.66096%2016.2547L1.40334%2010.2302L10.7091%2011.77L7.86069%202.77806L14.8567%209.10444L17.3219%200Z'%20fill='%23598D66'/%3e%3c/svg%3e" alt="logo" class="header__logo">
-			            <p class="header__text-logo">Студия "Салют"</p>
-		            </a>
+                <a href="index.html" class="header__link-logo">
+                    <img src="data:image/svg+xml,%3csvg%20width='35'%20height='35'%20viewBox='0%200%2035%2035'%20fill='none'%20xmlns='http://www.w3.org/2000/svg'%3e%3cpath%20d='M17.3219%200L19.7871%209.10444L26.7831%202.77806L23.9347%2011.77L33.2405%2010.2302L25.9828%2016.2547L34.6438%2019.9905L25.2812%2021.1349L30.5475%2028.9601L22.0525%2024.861L22.2522%2034.2911L17.3219%2026.25L12.3916%2034.2911L12.5913%2024.861L4.09628%2028.9601L9.36262%2021.1349L2.47955e-05%2019.9905L8.66096%2016.2547L1.40334%2010.2302L10.7091%2011.77L7.86069%202.77806L14.8567%209.10444L17.3219%200Z'%20fill='%23598D66'/%3e%3c/svg%3e" alt="logo" class="header__logo">
+                    <p class="header__text-logo">Студия "Салют"</p>
+                </a>
                 <nav class="footer__nav">
                     <ul class="footer__list">
                         <li class="footer__item">
@@ -188,7 +189,7 @@
                             <a href="index.html#team" class="footer__link">О нас</a>
                         </li>
                         <li class="footer__item">
-                            <a href="#" class="footer__link">+7 (996) 307-83-73</a>
+                            <a href="tel:+79963078373" class="footer__link">+7 (996) 307-83-73</a>
                         </li>
                     </ul>
                 </nav>

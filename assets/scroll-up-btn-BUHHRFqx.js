@@ -1,1 +1,0 @@
-var e=document.getElementById(`scrollToTopBtn`);window.onscroll=function(){document.body.scrollTop>700||document.documentElement.scrollTop>700?e.style.display=`block`:e.style.display=`none`},e.addEventListener(`click`,function(){window.scrollTo({top:0,behavior:`smooth`})});
